@@ -1,0 +1,138 @@
+.login__background{
+    background-size: cover;
+    display: block;
+    min-height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.background__image{
+    background-size: cover;
+    height: 1380px;
+    width: 100vw;
+}
+.login__header{
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: transparent;
+}
+img.nf__logo {
+    height: 10vh;
+    margin-left: 3%;
+}
+.login-body:before {
+    content: "";
+    height: 91px;
+    display: block;
+}
+.login__body{
+    margin: 0 auto -236px;
+    background-color: transparent;
+    max-width: 450px;
+    color: #333;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.above{
+    display: block;
+    height: 10vh;
+}
+.below{
+    content: "";
+    display: block;
+}
+.login__box{
+    background: #000000BF;
+    height: 560px;
+    margin: 0px 0px 90px;
+    padding: 60px 68px 40px;
+}
+.login__content__body{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 378px;
+}
+.login__content__body>h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.login__content__body>label{
+    color: #fff;
+    margin-top: 5px;
+}
+#Email {
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    margin-top: 5px;
+}
+#pass{
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.signin__button{
+    color: #FFFFFF;
+    background: #E50914;
+    margin: 24px 0px 12px;
+    padding: 16px;
+    border-radius: 4px;
+    border: 0;
+    text-align: center;
+}
+.help__area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.help__area>label{
+    color: #fff;
+}
+.help__area__checkbox>label{
+    color: #fff;
+}
+
+.login__content__footer{
+    margin-top: 50px;
+}
+.signup__now{
+    text-align: left;
+    margin-top: 16px;
+    color: #737373;
+}
+.signup__now>button{
+    border: 0cm;
+    background: none;
+}
+.signup__now>button>h4{
+    color: #0071eb ;
+    font-weight: normal;
+    font-size: medium;
+}
+.recaptcha__terms{
+    margin-top: 11px;
+}
+.recaptcha__terms>p{
+    text-align: left;
+    font-size: 13px;
+    margin: 13px 0px;
+    color: #8c8c8c
+}
+.recaptcha__terms__btn{
+    background-color: transparent;
+    color: #0071eb ;
+    border: 0cm;
+}
+
+
